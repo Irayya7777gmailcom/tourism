@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+            box-sizing: border-box;
+        }
+      body{
+        margin: 0px;
+      }
+        header{
+            width: 100%;
+            height: 70px;
+            padding: 10px;
+            background-color: rgb(191, 0, 255);
+            margin: 0px;
+            position: relative;
+            text-align: center;
+            
+        }
+        section{
+            display: -webkit-flex;
+            display: flex;
+        }
+        nav{
+            -webkit-flex: 1;
+            
+            flex: 1;
+            background: black;
+            padding: 20px;
+            font-size: larger;
+            
+        }
+        ul li{
+          margin: 0px;
+          list-style-type: none;
+        }
+        main{
+          box-sizing: border-box;
+          flex: 10;
+            background-color: aquamarine;
+            padding: 40px;
+            overflow-y: scroll;
+          
+            
+        }
+
+        .responsive{
+          display: inline-block;
+          
+        }
+        div.gallery {
+  border: 2px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 3px solid red;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+footer{
+  margin-top: 30px;
+  font-style: italic;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background-color: yellowgreen;
+}
+.link:hover{
+  background-color: green;
+}
+#scrl {
+  background-color: rgb(255, 255, 161);
+  overscroll-behavior-inline: contain;
+}
+
+
+       </style>
+</head>
+<body>
+  <div>
+    <header><h1>TOURISM</h1>
+      
+    </header>
+    
+    <section>
+        <nav>
+            <ul>
+                <li class="link"><a href="#Ka">KARNATAKA</a></li><br><br>
+                <li class="link"><a href="#Ta">TAMILNADU</a></li><br><br>
+                <li class="link"><a href="#Ke">KERALA</a></li><br><br>
+                <li class="link"><a href="#An">ANDHRA PRADESH</a></li><br><br>
+                <li class="link"><a href="#Ma">MAHARASHTRA</a></li>
+            </ul>
+            
+            
+            
+        </nav>
+        
+        <main id="scrl">
+            <p id="Ka"> <u>KARNATAKA</u></p>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\agumbe.jpg">
+                <img src="D:\css\hotspots tourism\agumbe.jpg" width="350px" height="250px"/></a>
+                <div class="desc">AGUMBE</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\hampi chariot.jpg">
+                <img src="D:\css\hotspots tourism\hampi chariot.jpg" width="350px" height="250px" /></a>
+                <div class="desc">STONE CHARIOT</div>
+                </div>
+              </div>
+            
+          
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\badami-cave-temples.jpg">   
+                <img src="D:\css\hotspots tourism\badami-cave-temples.jpg" width="350px" height="250px"/></a>
+                <div class="desc">BADAMI CAVES</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\mysore palace.jpg"> 
+                <img src="D:\css\hotspots tourism\mysore palace.jpg" width="350px" height="250px"/></a>
+                <div class="desc">MYSORE PALACE</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\gokarna.jpg"> 
+                <img src="D:\css\hotspots tourism\gokarna.jpg" width="350px" height="250px"/></a>
+                <div class="desc">GOKARNA</div>
+            </div>
+            </div>
+            
+            <p id="Ta"> <u>TAMILNADU</u></p>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\ramanathaswamy.jpg">
+                <img src="D:\css\hotspots tourism\ramanathaswamy.jpg" width="350px" height="250px"/></a>
+                <div class="desc">RAMANATHASWAMY TEMPLE</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\thiravallur.jpg">
+                <img src="D:\css\hotspots tourism\thiravallur.jpg" width="350px" height="250px" /></a>
+                <div class="desc">THIRAVALLUR STATUE</div>
+                </div>
+              </div>
+            
+          
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\mahabalipuram.jpg">   
+                <img src="D:\css\hotspots tourism\mahabalipuram.jpg" width="350px" height="250px"/></a>
+                <div class="desc">mahabalipuram</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Courtallam Main Falls.jpg"> 
+                <img src="D:\css\hotspots tourism\Courtallam Main Falls.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Courtallam Falls</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\adiyogi.jpg"> 
+                <img src="D:\css\hotspots tourism\adiyogi.jpg" width="350px" height="250px"/></a>
+                <div class="desc">adiyogi</div>
+            </div>
+            </div>
+
+            <p id="An"> <u>ANDHRA PRADESH</u></p>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\VMRDA-Kailasagiri.jpg">
+                <img src="D:\css\hotspots tourism\VMRDA-Kailasagiri.jpg" width="350px" height="250px"/></a>
+                <div class="desc">kailasagiri</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Veerabhadra Temple, Lepakshi.jpg">
+                <img src="D:\css\hotspots tourism\Veerabhadra Temple, Lepakshi.jpg" width="350px" height="250px" /></a>
+                <div class="desc">veerabhadra temple</div>
+                </div>
+              </div>
+            
+          
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Tenneti Park.jpg">   
+                <img src="D:\css\hotspots tourism\Tenneti Park.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Tenneti park</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Varkala Beach.jpg"> 
+                <img src="D:\css\hotspots tourism\Varkala Beach.jpg" width="350px" height="250px"/></a>
+                <div class="desc">varkala Beach</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Doctor NTR Beach Road.jpg"> 
+                <img src="D:\css\hotspots tourism\Doctor NTR Beach Road.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Dr NTR Beach</div>
+            </div>
+            </div>
+            
+            <p id="Ke"> <u>KERALA</u></p>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Jatayu Earth's Center.jpg">
+                <img src="D:\css\hotspots tourism\Jatayu Earth's Center.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Jatayu</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\k hills.jpg">
+                <img src="D:\css\hotspots tourism\k hills.jpg" width="350px" height="250px" /></a>
+                <div class="desc">hill station</div>
+                </div>
+              </div>
+            
+          
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Athirappilly Water Falls.jpg">   
+                <img src="D:\css\hotspots tourism\Athirappilly Water Falls.jpg" width="350px" height="250px"/></a>
+                <div class="desc">anthirappily Falls</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Varkala Beach.jpg"> 
+                <img src="D:\css\hotspots tourism\Varkala Beach.jpg" width="350px" height="250px"/></a>
+                <div class="desc">varkala Beach</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\images.jpg"> 
+                <img src="D:\css\hotspots tourism\images.jpg" width="350px" height="250px"/></a>
+                <div class="desc">backwaters</div>
+            </div>
+            </div>
+
+            <p id="Ma"> <u>MAHARASHTRA</u></p>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Nagarkhana.jpg">
+                <img src="D:\css\hotspots tourism\Nagarkhana.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Nagarkhana</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Shivaji's forts.jpg">
+                <img src="D:\css\hotspots tourism\Shivaji's forts.jpg" width="350px" height="250px" /></a>
+                <div class="desc">Shivagi fort</div>
+                </div>
+              </div>
+            
+          
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Gateway Of India Mumbai.jpg">   
+                <img src="D:\css\hotspots tourism\Gateway Of India Mumbai.jpg" width="350px" height="250px"/></a>
+                <div class="desc">gateway of india</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Louisa Point, Matheran.jpg"> 
+                <img src="D:\css\hotspots tourism\Louisa Point, Matheran.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Matheran</div>
+            </div>
+            </div>
+            <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="D:\css\hotspots tourism\Dhyana Buddha Temple.jpg"> 
+                <img src="D:\css\hotspots tourism\Dhyana Buddha Temple.jpg" width="350px" height="250px"/></a>
+                <div class="desc">Dhyana Buddha</div>
+            </div>
+            </div>
+            
+        </main></div>
+    
+    </section>
+    <footer>
+        <p>TO PLAN TRIP</p>
+        <a href="https://www.makemytrip.com/" target="_blank"><bold>click here</bold></a>
+    </footer>
+    
+
+</body>
+</html>
